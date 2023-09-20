@@ -24,9 +24,9 @@
 
 # 📖 [Vet clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Vet Clinic}** is a...
+
+**[Vet Clinic}** is a database table that takes data from the user and stores it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
