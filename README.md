@@ -20,13 +20,13 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
 
 # 📖 [Vet clinic] <a name="about-project"></a>
 
 
 
-**[Vet Clinic}** is a database table that takes data from the user and stores it.
+**Vet Clinic** is a database table that takes data from the user and stores it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,11 +41,7 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Create a table**
 - **Insert Data to the table**
@@ -53,22 +49,20 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors">Zelalem</a>
 
-> Mention all of the collaborators of this project.
+
+
+
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Zel-hub7)
+- GitHub: [@Zelalem](https://github.com/Zel-hub7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +70,6 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Will add more tables**
 - [ ] **will create a Ui and integrate with the front end**
