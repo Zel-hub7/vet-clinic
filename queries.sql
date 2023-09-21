@@ -39,6 +39,32 @@ ROLLBACK;
 
 SELECT * FROM animals;
 
+
+-- Begin a transaction
+BEGIN;
+
+-- Delete all animals born after Jan 1st, 2022
+DELETE FROM animals
+WHERE date_of_birth > '2022-01-01';
+
+-- Create a savepoint
+SAVEPOINT weight_update_savepoint;
+
+-- Update all animals' weight to be their weight multiplied by -1
+UPDATE animals
+SET weight_kg = -weight_kg;
+
+-- Rollback to the savepoint
+ROLLBACK TO weight_update_savepoint;
+
+-- Update all animals' weights that are negative to be their weight multiplied by -1
+UPDATE animals
+SET weight_kg = -weight_kg
+WHERE weight_kg < 0;
+
+-- Commit the transaction
+COMMIT;
+
 --Update the animals table by setting the species column to digimon for all animals that have a name ending in mon
 
 BEGIN;
