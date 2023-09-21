@@ -22,7 +22,7 @@
 
 # 📖 Vet Clinic <a name="about-project"></a>
 
-The "Vet Clinic" project involves setting up a PostgreSQL database to manage information about animals in a veterinary clinic.
+The "Vet Clinic" project is a database that manages data about vet clinic.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,7 +81,7 @@ To run the project:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Meryem Sanem Küçükbayram**
+👤 **Zelalem Yohannes*
 
 - GitHub: [@Zelalem](https://github.com/Zel-hub7)
 
