@@ -59,6 +59,26 @@ DROP animals;
 
 ALTER TABLE temp_animals RENAME TO animals;
 
+-- Remove the species column.
+
+ALTER TABLE animals drop column species;
+
+-- Create a new column named species_id
+
+ALTER TABLE animals
+ADD COLUMN species_id INTEGER;
+
+-- Add column species_id which is a foreign key referencing species table
+
+ALTER TABLE animals
+ ADD CONSTRAINT fk_species
+ FOREIGN KEY (species_id)
+ REFERENCES species(id);
+
+
+-- Add column owner_id which is a foreign key referencing the owners table;
+
+
 
 
 
