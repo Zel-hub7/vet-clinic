@@ -76,8 +76,15 @@ ALTER TABLE animals
  REFERENCES species(id);
 
 
--- Add column owner_id which is a foreign key referencing the owners table;
+-- Add column owner_id;
+ Alter table animals
+ ADD column owner_id INTEGER;
 
+-- make this column foreign key.
+ALTER TABLE animals
+ADD CONSTRAINT fk_owner
+FOREIGN KEY (owner_id)
+REFERENCES owners(id);
 
 
 
