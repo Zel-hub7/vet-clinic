@@ -116,7 +116,17 @@ CREATE TABLE visits (
     FOREIGN KEY (vet_id) REFERENCES vets (id)
 );
 
+-- Optimizing the First Query SELECT COUNT(*) FROM visits WHERE animal_id = 4;
 
+CREATE INDEX idx_animal_id ON visits(animal_id);
+
+-- Optimizing the Second Query SELECT * FROM visits WHERE vet_id = 2;
+
+CREATE INDEX idx_vet_id ON visits(vet_id);
+
+-- Optimizing the Third Query SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
+
+CREATE INDEX idx_email ON owners(email);
 
 
 
